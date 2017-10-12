@@ -95,7 +95,7 @@ ExcludeArch: armv7hl
 %if !%{debug_build}
 %ifarch %{ix86} x86_64
 %if 0%{?fedora} < 27
-%define enable_mozilla_crashreporter       1
+%define enable_mozilla_crashreporter       0
 %endif
 %endif
 %endif
@@ -147,7 +147,6 @@ Patch38:        build-cacheFlush-missing.patch
 # Fedora specific patches
 Patch215:        firefox-enable-addons.patch
 Patch219:        rhbz-1173156.patch
-Patch221:        firefox-fedora-ua.patch
 Patch224:        mozilla-1170092.patch
 Patch225:        mozilla-1005640-accept-lang.patch
 #ARM run-time patch
