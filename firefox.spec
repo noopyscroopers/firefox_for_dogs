@@ -89,7 +89,7 @@ ExcludeArch: armv7hl
 %global langpackdir   %{mozappdir}/langpacks
 
 %define official_branding       1
-%define build_langpacks         1
+%define build_langpacks         0
 
 %define enable_mozilla_crashreporter       0
 %if !%{debug_build}
