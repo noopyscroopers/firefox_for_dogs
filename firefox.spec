@@ -331,7 +331,6 @@ This package contains results of tests executed during build.
 # Fedora patches
 %patch215 -p1 -b .addons
 %patch219 -p2 -b .rhbz-1173156
-%patch221 -p2 -b .fedora-ua
 %patch224 -p1 -b .1170092
 %patch225 -p1 -b .1005640-accept-lang
 #ARM run-time patch
